@@ -75,17 +75,17 @@ Node.js version 18 or higher is recommended.
 
 ```
 FinTrackApi/
-├── index.js # Application entry point
+├── index.js 
 ├── package.json
 ├── package-lock.json
 ├── db/
-│ └── config.js # MongoDB connection configuration
+│ └── config.js 
 ├── functions/
-│ └── functions.js # Business logic (receitas, despesas, total)
+│ └── functions.js 
 ├── routes/
-│ ├── index.js # Route aggregator
-│ └── actionsRouter.js # FinTrack routes (/receitas, /despesas, /total)
-└── node_modules/ # Ignored by .gitignore
+│ ├── index.js
+│ └── actionsRouter.js
+└── node_modules/ 
 ```
 
 ---
