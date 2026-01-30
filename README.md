@@ -1,4 +1,4 @@
-# 💰 FinTrack API
+# 💰 Finance Tracking API
 
 REST API for personal finance management, developed with **Node.js**, **Fastify**, and **MongoDB**, fully documented according to the **OpenAPI (OAS) specification version 3.2.0**.
 
