@@ -40,7 +40,7 @@ Each financial entry contains:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/fintrack-api.git
+git clone https://github.com/luiggyAlves/finance-tracking-api.git
 cd fintrack-api
 npm install
 ```
@@ -74,20 +74,18 @@ Node.js version 18 or higher is recommended.
 ## 📂 Project Structure
 
 ```
-fintrack-api/
-├── index.js              # Application entry point
+FinTrackApi/
+├── index.js # Application entry point
 ├── package.json
 ├── package-lock.json
 ├── db/
-│   └── config.js         # Database configuration
-├── models/
-│   ├── transaction.js   # Transaction model
-│   └── category.js      # Category model
+│ └── config.js # MongoDB connection configuration
+├── functions/
+│ └── functions.js # Business logic (receitas, despesas, total)
 ├── routes/
-│   ├── index.js         # Route aggregator
-│   ├── transactions.js  # Transaction routes
-│   └── categories.js    # Category routes
-└── node_modules/
+│ ├── index.js # Route aggregator
+│ └── actionsRouter.js # FinTrack routes (/receitas, /despesas, /total)
+└── node_modules/ # Ignored by .gitignore
 ```
 
 ---
